@@ -1,0 +1,22 @@
+body{
+  background-color: aqua;
+}
+button{
+    background-color: rgb(167, 45, 167);
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+   justify-content: center;
+}
+.timer-div{
+  justify-content: center;
+ 
+text-align: center;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(95, 180, 176);
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .greeting-div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 120px;
+  }
+ .greeting-h1{
+    padding: 20px 20px;
+    background-color: pink;
+    color: palevioletred;
+    border-radius: 5px;
+    /* text-align: center; */
+    display: flex; 
+   justify-content: center;
+   margin: auto;
+  } 
