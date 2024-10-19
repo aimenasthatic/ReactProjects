@@ -1,20 +1,27 @@
 import React from 'react';
-import './timer.css';
-import  Timer from "./timer"
-// import './App.css';
-// import  Hey from "./greeting";
-// import Imgs from './img';
-// import Name from "./currdate";
-function App()
- {
+import {app} from './firebase';
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider  } from 'firebase/auth';
+import Contect from "./Contect";
+import About from "./About";
+ import "./App.css";
+ import Test from './Test';
+const auth = getAuth(app);
+
+function App(){
+  const signupUser = () => {
+createUserWithEmailAndPassword (
+  auth,
+   "aimenbal809@gmail.com",
+   "aimen230@").then((value) => console.log(value));
+  };
+  
   return (
 <>
-{/* <Hey/>
-<Name/>
-<Imgs/> */}
-<Timer/>
+<Home/>
+<Contect/>
 </>
   );
-}
+};
  
+export const googleAuth = new GoogleAuthProvider();
 export default App;

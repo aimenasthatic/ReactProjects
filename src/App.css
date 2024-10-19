@@ -53,4 +53,29 @@ width: 700px;
  background-color: green;
  gap: 5px;
 }
- 
+.signup-page{
+  width: 250px;
+  justify-content: center;
+  margin: auto;
+ box-sizing: border-box;
+  border: 2px solid rgb(207, 114, 179);
+  text-align: center;
+  margin-top: 160px;
+  background-color: rgb(241, 146, 210);
+  height: 300px;
+  border-radius: 5px;
+}
+ input{
+  border-radius: 5px;
+ }
+ label{
+  margin-top: 150px;
+  text-align: center;
+ }
+button{
+  margin-top: 60px;
+}
+.input-field{
+  margin-top: 80px;
+  gap: 5px;
+}
