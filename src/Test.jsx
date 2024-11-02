@@ -21,7 +21,7 @@ return(
     <br></br>
     <label>Password</label><br></br>
     <input type="Password" required placeholder="enter your email here"></input><br></br>
-    <button onClick={handleLogIn}>Login with google</button>
+    <button onClick={handleLogIn}>Login with google</button>npm start
     <button onClick={handleLogOut}>Logout with google</button>
     {loading && <p>loading.....</p>}
     {user && (<>
